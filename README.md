@@ -1,2 +1,2 @@
 # plugin1
-Test wp p;ugin
+Test wp plugin
