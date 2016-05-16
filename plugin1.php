@@ -16,3 +16,12 @@ function JCA_show_admin_notice()
 }
 
 add_action('admin_notices', 'JCA_show_admin_notice');
+
+
+
+function JCA_show_admin_footer()
+{
+    echo "Success";
+}
+
+add_action('admin_footer_text', 'JCA_show_admin_footer');
