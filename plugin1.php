@@ -25,3 +25,10 @@ function JCA_show_admin_footer()
 }
 
 add_action('admin_footer_text', 'JCA_show_admin_footer');
+
+function JCA_after_adminmenu()
+{
+    echo "<div style='background-color: #00b9eb; color: white; padding: 10px;'>Success</div>";
+}
+
+add_action('adminmenu', 'JCA_after_adminmenu');
